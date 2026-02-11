@@ -268,9 +268,9 @@ elif page == "🔬 Prédiction":
         
         with col1:
             if prediction == 0:
-                st.success("✅ **BÉNIN (0)** - Tumeur bénigne", icon="✅")
+                st.success("**BÉNIN (0)** - Tumeur bénigne", icon="✅")
             else:
-                st.error("⚠️ **MALIN (1)** - Tumeur maligne", icon="⚠️")
+                st.error("**MALIN (1)** - Tumeur maligne", icon="⚠️")
         
         with col2:
             st.info(f"Confiance: {max(probability)*100:.2f}%")
@@ -344,6 +344,7 @@ elif page == "📋 À propos":
 
     st.markdown("---")
     st.success("Merci d'utiliser cette application 🙏")
+
 
 
 
